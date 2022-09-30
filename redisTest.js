@@ -21,4 +21,5 @@ async function setProductkey(companyName, productName, keyValue){
   const value = await client.get(key);
   console.log(value)
 }
+console.log("hello")
 setProductkey('test', 'test2', '5')
